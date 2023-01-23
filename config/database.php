@@ -45,12 +45,12 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', '127.0.0.1'),
+            'url' => env('msdocs-laravel-mysql-2023-server.mysql.database.azure.com'),
+            'host' => env('DB_HOST', 'msdocs-laravel-mysql-2023-server.mysql.database.azure.com'),
             'port' => env('DB_PORT', '3306'),
-            'database'  => env('DB_DATABASE', 'forge'),
-            'username'  => env('DB_USERNAME', 'forge'),
-            'password'  => env('DB_PASSWORD', ''),
+            'database'  => env('DB_DATABASE', 'msdocs-laravel-mysql-2023-database'),
+            'username'  => env('DB_USERNAME', 'ravpsnklwt'),
+            'password'  => env('DB_PASSWORD', 'KCSP2FY3N1PEVG32$'),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
